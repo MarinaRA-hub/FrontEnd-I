@@ -1,0 +1,102 @@
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header {
+    background-image: url(../img/top1.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 80px;
+    font-size: 50px;
+}
+
+/* == Es el navegador superior  == */
+.menú {
+    text-align: right
+}
+
+main{
+    margin: 50px auto;
+    max-width: 1000px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    background-color:linen;
+    line-height: 50px;
+    width: 1047px;
+    font-style: italic;
+    
+}
+
+/* == Son los links entres páginas  == */
+.enlace {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 45px;
+}
+
+/* == Son las referencias y fechas  == */
+.detalle {
+    font-weight: 900;
+}
+
+div {
+    text-align: center;
+}
+
+dl{
+    margin-left: 40px;
+}
+
+footer {
+    color:midnightblue ;
+    font-weight: 900;
+    background-image: url(../img/top1.jpg);
+    text-align:center;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+/* == Son los íconos de sobremi.html  == */
+
+.fa-child {
+    color: palevioletred;
+    font-size: 35px;
+}
+
+.fa-film{
+    font-size: 35px;
+}
+
+.fa-utensils{
+    color: gray;
+    font-size: 35px;
+}
+
+.fa-cookie-bite{
+    color: brown;
+    font-size: 35px;
+}
+
+.fa-calculator{
+    color: darkslategrey;
+    font-size: 35px;
+}
+
+.fa-hand-rock{
+    font-size: 35px;
+}
+
+.fa-smile-beam{
+    color: goldenrod;
+    font-size: 35px;
+}
