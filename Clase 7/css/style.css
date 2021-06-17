@@ -16,7 +16,7 @@ header {
 
 .CV-info {
     margin: 120px auto
-    margin-left: 50px
+    margin-left: 50px;
 }
 
 
@@ -47,6 +47,6 @@ footer {
     text-transform: uppercase;
     color: #FFFFFF;
     line-height: 37px;
-    text-align: center
+    text-align: center;
 }
 
