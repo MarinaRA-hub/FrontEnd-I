@@ -1,0 +1,108 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    background-color: #1CD1B0;
+    padding: 10px;
+    font-size: 15px;
+    height: 38px
+}
+
+header{
+    background-color: #00669F;
+    height: 101px;
+    padding: 28px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+
+.personaje {
+    display: inline-block;
+    margin: 100px;
+    padding-top: 158px;
+    padding-bottom: 153px;
+    
+}
+
+/*Parte superior*/
+.tope {
+    position: relative;
+    
+}
+
+.like {
+    position: absolute;
+    width: 30px;
+    top: 16px;
+    left: 21px;
+}
+
+.foto {
+    position: absolute;
+    border-radius: 50%;
+    width: 120px;
+    top: 120px;
+    left: 90px;
+    z-index: 2;
+}
+
+
+/*Parte inferior*/
+
+.base {
+    width: 300px;
+    height: 336px;
+    background: #F3F3F3;
+    position: relative;
+      
+    
+}
+
+.base h2{
+    position: absolute;
+    text-transform: uppercase;
+    top: 74px;
+    font-size: 30px;
+    left: 89px;
+}
+
+.base .harley{
+    text-transform: none;
+    left: 65px;
+}
+
+.base .descripcion{
+    position: absolute;
+    font-size: 16px;
+    width: 267px;
+    top: 119px;
+    left: 17px;
+    
+}
+
+.base .ver {
+    width: 128.78px;
+    height: 48.52px;
+    position: absolute;
+    background-color: #00669F;
+    color: #F3F3F3;
+    text-align: center;
+    padding: 15px;
+    top: 269px;
+    left: 85px;
+    
+}
+
+footer{
+    height: 51px;
+    background-color: #00669F;
+    color: #FFF9F9;
+    padding: 16px;
+}
+
