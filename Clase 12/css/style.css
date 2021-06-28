@@ -1,0 +1,119 @@
+*{
+    font-family: 'Roboto', sans-serif; /*tiene que ir en el body*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+
+ul{
+    display: flex;
+    gap: 36px;
+}
+
+.menu-regional {
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu-principal{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+        
+}
+
+/*Main*/
+
+/*Banner*/
+.banner {
+    background-image: url("../img/fondo-banner.png");
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+      
+                   
+}
+
+.banner > *{
+    
+    
+
+}
+
+.saludo {
+    background-color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400px;
+    text-align: center;
+    width: 365px;
+    height: 54px;
+    padding: 10px;
+            
+}
+
+.destacado {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    text-align: center;
+    width: 141px;
+    padding: 15px 23px;
+    height: 49px
+            
+}
+
+/*Sección Productos*/
+#productos-destacados{
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.precio {
+    color: #F0A83E;
+    font-size: 15px;
+}
+
+.contactanos{
+    text-align: center;
+}
+
+/*Suscripcion*/
+
+.suscripcion {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700px;
+    text-align: left;
+}
+
+/*Footer*/
+footer {
+    background-color: #3C2313;
+    color: #FFFFFF;
+}
+
+.medios-contacto {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.derechos {
+    background-color: #222222;
+    text-align: center;
+}
