@@ -1,21 +1,103 @@
-body {background-image: url('https://preview.pixlr.com/images/800wm/1143/1/1143133380.jpg');
-background-size: cover;
-font-family: 'Montserrat', sans-serif;}
-
-#titulo-principal {background-color: bisque;}
-
-h1 {font-size: 40px;
-    text-align: center;
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
 }
 
-h2 {font-size: 30px;
+body {
+    background-image: url(../img/5362004.jpg);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.nombre {font-style: italic;
-    text-align: center;
-    font-size: 25px}
+header {
+    background-color: bisque;
+    opacity: 90%;
+    border: solid;
+    width: 900px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 15px;
+}
 
-#Trabajos {font-size: 30px;
-    text-align: center}
+header > *{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
 
+h1 {
+    font-size: 50px;
+}
+
+header section p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#trabajos {
+    font-size: 15px;
+    background-color: white;
+/*    width: 100%;
+    max-width: 900px;*/
+    width: 900px;
+    height: 300px;
+    text-decoration: none;
+    display: flex;
+/*    flex-wrap: wrap;*/
+    justify-content: space-around;
+    padding: 40px;
+    align-items: flex-start;
+    margin-bottom: 190px;
+}
+
+/*#trabajos div{
+    display: flex;
+    align-items: center;
+}*/
+
+#trabajos div:nth-child(even){
+    align-self: flex-end;
+}
+
+#trabajos div a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+#trabajos div img{
+    width: 100px;
+    border: solid rgb(85, 46, 136);
+    border-radius: 50%;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    font-size: 10px;
+    width: 1024px;
+    padding: 5px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    #trabajos {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 600px;
+        height: 1000px;
+        
+        
+    }
+
+    #trabajos div{
+        
+    }
+
+}
