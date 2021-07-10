@@ -91,3 +91,45 @@ footer{
    line-height: 30px;
 }
 
+@media screen and (max-width: 426px){
+    header div img{
+        width: 180px;
+    }
+
+    header nav ul li{
+        display: none;
+    }
+    
+    header nav ul::before{
+        content: "\f0c9";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 2rem;
+        color: white;
+
+    } 
+
+    main{
+        flex-direction: column;
+    }
+
+    .promo, .podio{
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    footer{
+        height: 100px;
+    }
+
+    footer nav{
+        display: none;
+    }
+
+    footer img{
+        margin: 0 auto;
+        height: 80px;
+    }
+
+
+}
